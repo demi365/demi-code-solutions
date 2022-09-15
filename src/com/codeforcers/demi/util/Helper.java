@@ -9,6 +9,15 @@ public class Helper {
         System.out.println();
     }
 
+    public static void print(int[][] array, int[] mat) {
+        for (int[] a: array) {
+            if(a == null) continue;
+            for(int b: a)
+                System.out.print(mat[b]+" ");
+            System.out.println();
+        }
+    }
+
     public static void print(int[][] array) {
         for (int[] a: array) {
             for(int b: a)
