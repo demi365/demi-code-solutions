@@ -6,5 +6,7 @@ public enum ProblemType {
     TwoDMatrix,
     PrefixSum,
     Special,
-    HashTable
+    HashTable,
+    DynamicProgramming,
+    Recursion
 }
