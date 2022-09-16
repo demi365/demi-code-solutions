@@ -13,13 +13,14 @@ public class Helper {
         for (int[] a: array) {
             if(a == null) continue;
             for(int b: a)
-                System.out.print(mat[b]+" ");
+                System.out.print(mat[b]+"["+b+"] ");
             System.out.println();
         }
     }
 
     public static void print(int[][] array) {
         for (int[] a: array) {
+            if(a == null) continue;
             for(int b: a)
                 System.out.print(b+" ");
             System.out.println();
