@@ -1,12 +1,15 @@
 package com.codeforcers.demi.algo.dev;
 
 import com.codeforcers.demi.annotation.CodeFactor;
+import com.codeforcers.demi.annotation.Difficulty;
+import com.codeforcers.demi.annotation.LeetCode;
 import com.codeforcers.demi.enums.Complexity;
 import com.codeforcers.demi.enums.ProblemType;
 
 /**
  * Find the maximum sub array of the given array
  */
+@LeetCode(value = 53, difficulty = Difficulty.MEDIUM)
 @CodeFactor(time = Complexity.ON, space = Complexity.O1, type = ProblemType.Special)
 public class MaximumSubArray {
 

@@ -1,6 +1,8 @@
 package com.codeforcers.demi.algo.dev;
 
 import com.codeforcers.demi.annotation.CodeFactor;
+import com.codeforcers.demi.annotation.Difficulty;
+import com.codeforcers.demi.annotation.LeetCode;
 import com.codeforcers.demi.enums.Complexity;
 import com.codeforcers.demi.enums.ProblemType;
 
@@ -21,6 +23,7 @@ import com.codeforcers.demi.enums.ProblemType;
  * Return true if n is a happy number, and false if not.
  *
  */
+@LeetCode(value = 202, difficulty = Difficulty.EASY)
 @CodeFactor(space = Complexity.O1, time = Complexity.ON, type = ProblemType.Special)
 public class HappyNumber {
 
