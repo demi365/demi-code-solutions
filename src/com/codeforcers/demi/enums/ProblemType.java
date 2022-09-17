@@ -5,10 +5,11 @@ public enum ProblemType {
     Matrix,
     TwoDMatrix,
     PrefixSum,
-    Special,
     HashTable,
     DynamicProgramming,
     Recursion,
     BST,
-    SlidingWindow
+    SlidingWindow,
+    Bucket,
+    Special
 }

@@ -1,4 +1,4 @@
-package com.codeforcers.demi.annotation;
+package com.codeforcers.demi.enums;
 
 public enum Difficulty {
     EASY,

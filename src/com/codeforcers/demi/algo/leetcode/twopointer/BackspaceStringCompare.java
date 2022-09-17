@@ -1,7 +1,7 @@
 package com.codeforcers.demi.algo.leetcode.twopointer;
 
 import com.codeforcers.demi.annotation.CodeFactor;
-import com.codeforcers.demi.annotation.Difficulty;
+import com.codeforcers.demi.enums.Difficulty;
 import com.codeforcers.demi.annotation.LeetCode;
 import com.codeforcers.demi.enums.Complexity;
 import com.codeforcers.demi.enums.ProblemType;
