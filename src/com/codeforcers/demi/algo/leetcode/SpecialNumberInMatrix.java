@@ -1,6 +1,7 @@
 package com.codeforcers.demi.algo.leetcode;
 
 import com.codeforcers.demi.annotation.CodeFactor;
+import com.codeforcers.demi.annotation.Difficulty;
 import com.codeforcers.demi.annotation.LeetCode;
 import com.codeforcers.demi.enums.Complexity;
 import com.codeforcers.demi.enums.ProblemType;
@@ -13,7 +14,7 @@ import java.util.Queue;
  *<p></p>
  * A position (i, j) is called special if mat[i][j] == 1 and all other elements in row i and column j are 0 (rows and columns are 0-indexed).
  */
-@LeetCode(1582)
+@LeetCode(value = 1582, difficulty = Difficulty.EASY)
 @CodeFactor(space = Complexity.ONPlusM, time = Complexity.ONM, type = ProblemType.TwoDMatrix)
 public class SpecialNumberInMatrix {
 
