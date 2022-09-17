@@ -9,5 +9,6 @@ public enum ProblemType {
     HashTable,
     DynamicProgramming,
     Recursion,
+    BST,
     SlidingWindow
 }
