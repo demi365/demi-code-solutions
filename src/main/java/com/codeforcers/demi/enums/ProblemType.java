@@ -11,5 +11,6 @@ public enum ProblemType {
     BST,
     SlidingWindow,
     Bucket,
-    Special
+    Special,
+    Sorting
 }
