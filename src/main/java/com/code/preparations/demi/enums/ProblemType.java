@@ -13,5 +13,6 @@ public enum ProblemType {
     Bucket,
     Special,
     Sorting,
+    Search,
     Tree
 }

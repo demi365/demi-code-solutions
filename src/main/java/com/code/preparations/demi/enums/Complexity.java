@@ -2,7 +2,7 @@ package com.code.preparations.demi.enums;
 
 public enum Complexity {
     O1,
-    OLog1,
+    OLogN,
     ONPlusM,
     ON,
     ONlogN,
