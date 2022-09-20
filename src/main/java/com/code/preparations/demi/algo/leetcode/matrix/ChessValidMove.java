@@ -53,7 +53,10 @@ public class ChessValidMove {
     }
 
     private boolean isValid(int row, int col, int[] dir) {
-        return row + dir[0] < 8 && row + dir[0] >= 0 && col + dir[1] < 8 && col + dir[1] >= 0;
+        return row + dir[0] < 8
+                && row + dir[0] >= 0
+                && col + dir[1] < 8
+                && col + dir[1] >= 0;
     }
 
 }
