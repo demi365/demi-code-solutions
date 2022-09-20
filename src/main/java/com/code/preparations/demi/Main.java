@@ -21,17 +21,6 @@ public class Main {
             System.out.println("Frequency of "+i + " is "+ freq[i]);
         }
 
-        Arrays.fill(freq, 0);
-
-        System.out.println("After my method");
-        for(int i = 0; i< count; i++) {
-            freq[randomNumberGeneration.tryRand9()]++;
-        }
-
-        for (int i=0; i<freq.length; i++) {
-            System.out.println("Frequency of "+i + " is "+ freq[i]);
-        }
-
     }
 
 }
