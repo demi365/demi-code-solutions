@@ -15,5 +15,6 @@ public enum ProblemType {
     Sorting,
     Search,
     Tree,
-    Math
+    Math,
+    Modulus
 }
