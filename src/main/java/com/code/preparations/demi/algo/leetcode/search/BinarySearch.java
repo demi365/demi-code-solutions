@@ -7,7 +7,7 @@ import com.code.preparations.demi.enums.Difficulty;
 import com.code.preparations.demi.enums.ProblemType;
 
 @LeetCode(value = 704, difficulty = Difficulty.EASY)
-@CodeFactor(time = Complexity.OLogN, space = Complexity.O1, type = ProblemType.Search)
+@CodeFactor(time = Complexity.OLogN, space = Complexity.O1, type = ProblemType.BinarySearch)
 public class BinarySearch {
 
     public int search(int[] nums, int target) {

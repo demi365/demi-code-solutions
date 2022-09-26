@@ -14,6 +14,7 @@ public enum ProblemType {
     Special,
     Sorting,
     Search,
+    BinarySearch,
     Tree,
     Math,
     BitManipulation,
