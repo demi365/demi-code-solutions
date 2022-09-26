@@ -1,9 +1,14 @@
-package com.code.preparations.demi.algo.codeforces.div2.eighttwothree;
+package com.code.preparations.demi.algo.codeforces.div2;
+
+import com.code.preparations.demi.annotation.CodeForces;
+import com.code.preparations.demi.enums.CodeForce;
+import com.code.preparations.demi.enums.CodeForceType;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+@CodeForces(div = CodeForce.DIV2, number = 823, problemType = CodeForceType.C)
 public class Notation {
 
     public static void main(String[] args) {
