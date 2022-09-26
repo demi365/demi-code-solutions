@@ -17,5 +17,6 @@ public enum ProblemType {
     Tree,
     Math,
     BitManipulation,
-    Modulus
+    Modulus,
+    UnionFind
 }
