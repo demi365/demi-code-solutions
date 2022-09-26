@@ -1,5 +1,10 @@
-# Demi's leetcode Solutions
+# Demi's Coding Solutions
 Leet code solutions organised in java as and when solved
+
+Has solutions solved from,
+1. Leetcode
+2. Code Forces Div 2
+3. Dev community
 
 This is a organized leet code solution complied for the betterment of the community.
 This will have a track of all the most solved and important solutions which are useful for reviewing.
