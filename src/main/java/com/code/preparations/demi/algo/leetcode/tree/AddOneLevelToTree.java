@@ -35,9 +35,7 @@ public class AddOneLevelToTree {
      */
     public TreeNode addOneRow(TreeNode root, int val, int depth) {
         if(depth == 1) {
-            TreeNode head = new TreeNode(val);
-            head.left = root;
-            return head;
+            return new TreeNode(val, root, null);
         }
         this.addOneRow(root, val, depth-1, 1);
         return root;
