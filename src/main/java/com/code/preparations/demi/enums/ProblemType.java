@@ -19,5 +19,6 @@ public enum ProblemType {
     Math,
     BitManipulation,
     Modulus,
-    UnionFind
+    UnionFind,
+    DataStructure
 }
