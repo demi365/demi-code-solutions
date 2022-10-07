@@ -20,14 +20,14 @@ import java.util.TreeSet;
  */
 @LeetCode(value = 729, difficulty = Difficulty.MEDIUM)
 @CodeFactor(time = Complexity.OLogN, space = Complexity.ON, type = ProblemType.DataStructure)
-public class MyCalendar1 {
+public class MyCalendarOne {
 
     private final TreeSet<int[]> bookings;
 
     /**
      * MyCalendar() Initializes the calendar object.
      */
-    public MyCalendar1() {
+    public MyCalendarOne() {
         bookings = new TreeSet<>(Comparator.comparingInt(a -> a[0]));
     }
 
