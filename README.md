@@ -1,5 +1,5 @@
 # Demi's Coding Solutions
-Leet code solutions organised in java as and when solved
+Leet code, codeforces, etc solutions organised in java as and when solved
 
 Has solutions solved from,
 1. Leetcode
