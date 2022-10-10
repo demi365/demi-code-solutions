@@ -20,5 +20,6 @@ public enum ProblemType {
     BitManipulation,
     Modulus,
     UnionFind,
-    DataStructure
+    DataStructure,
+    Greedy
 }
