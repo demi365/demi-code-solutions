@@ -19,6 +19,12 @@ import com.code.preparations.demi.enums.ProblemType;
 @CodeFactor(space = Complexity.O1, time = Complexity.ONlogN, type = ProblemType.BinarySearch)
 public class CapacityToShipWithinDDays {
 
+    /**
+     * This is to iterate over the answers from lowest to the maximum answer possible
+     * <p>
+     *     This is a O(LogN) binary searching calling another O(N) solution for each iteration
+     * </p>
+     */
     public int shipWithinDays(int[] weights, int days) {
         int max = weights[0];
         int min = weights[0];
@@ -43,6 +49,11 @@ public class CapacityToShipWithinDDays {
         return min;
     }
 
+    /**
+     * This is an N based solution, where we take the maximum capacity into consideration for weights.
+     * <p></p>
+     * This operation is O(N) solution
+     */
     public boolean isGoodFit(int[] weights, int days, int capacity) {
         int sum = 0;
         int count = 1;
