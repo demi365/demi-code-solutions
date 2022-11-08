@@ -21,5 +21,6 @@ public enum ProblemType {
     Modulus,
     UnionFind,
     DataStructure,
-    Greedy
+    Greedy,
+    StringManipulation
 }
