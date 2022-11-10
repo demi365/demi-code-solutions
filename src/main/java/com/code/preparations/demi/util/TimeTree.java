@@ -6,8 +6,8 @@ import java.util.Map;
 
 public class TimeTree {
 
-    private int maxSize;
-    private TreeMap<ValueTree, ValueTree> vals;
+    private final int maxSize;
+    private final TreeMap<ValueTree, ValueTree> vals;
 
     public TimeTree(int maxSize) {
         this.maxSize = maxSize;
