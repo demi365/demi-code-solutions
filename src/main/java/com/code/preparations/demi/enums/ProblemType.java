@@ -22,5 +22,6 @@ public enum ProblemType {
     UnionFind,
     DataStructure,
     Greedy,
-    StringManipulation
+    StringManipulation,
+    DFS
 }
