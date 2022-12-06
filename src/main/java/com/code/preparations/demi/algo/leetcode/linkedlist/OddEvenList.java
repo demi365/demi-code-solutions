@@ -30,11 +30,9 @@ public class OddEvenList {
         ListNode second = head.next;
 
         while (hare != null) {
-            // System.out.println("Hare and point is "+hare.val+" "+point.val);
             prev.next = hare.next;
             point.next = hare;
             hare.next = second;
-            // System.out.println("Prev is "+prev.val+" hare is "+hare.val+" point is "+point.val);
             if (prev.next != null) {
                 point = point.next;
                 prev = prev.next;
