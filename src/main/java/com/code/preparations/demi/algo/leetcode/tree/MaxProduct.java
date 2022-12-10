@@ -26,8 +26,6 @@ public class MaxProduct {
     public int maxProduct(TreeNode root) {
         List<Long> eles = new ArrayList<>();
         long maxSum = this.prefixSum(root, eles);
-        // List<Integer> values = traverse(root, new ArrayList<>());
-        // System.out.println(values);
         return (int) (this.findMax(eles, maxSum) % MODULO);
     }
 
