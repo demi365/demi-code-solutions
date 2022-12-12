@@ -35,6 +35,24 @@ public class Main {
             log.info("Total number of solutions available in {} type is {}", value.getKey(), value.getValue().size());
         }
 
+        log.info("Enter problem number to search : ");
+        final Scanner sc = new Scanner(System.in);
+        final int challengeNumber = sc.nextInt();
+
+        final Optional<Class<?>> challengeSolvedOptional = classes.stream()
+                .filter(challenge -> {
+                    LeetCode leetCode = challenge.getAnnotation(LeetCode.class);
+                    return challengeNumber == leetCode.value();
+                })
+                .findAny();
+
+        challengeSolvedOptional.ifPresent(challenge -> {
+            log.info("Challenge is already solved " + challenge.getCanonicalName());
+        });
+        if (challengeSolvedOptional.isEmpty()) {
+            log.info("Challenge is not solved yet!");
+        }
+
     }
 
 }
