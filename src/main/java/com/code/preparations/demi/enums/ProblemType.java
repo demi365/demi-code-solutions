@@ -23,5 +23,6 @@ public enum ProblemType {
     DataStructure,
     Greedy,
     StringManipulation,
-    DFS
+    DFS,
+    BFS
 }
